@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_margin="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_name"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/login"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name">
+        </TextView>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_marginBottom="20dp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/register_with"
+                android:id="@+id/register_with"
+                android:layout_gravity="center_horizontal"
+                android:onClick="register"/>
+
+    </LinearLayout>
+
+</LinearLayout>

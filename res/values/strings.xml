@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Курьер</string>
+
+    <string name="authorization">Авторизация</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="go">Войти</string>
+
+    <string name="registration">Моментальная регистрация</string>
+    <string name="first_name">Ваше имя</string>
+    <string name="last_name">Ваша фамилия</string>
+    <string name="register_with">Зарегистрироваться</string>
+
+
+</resources>

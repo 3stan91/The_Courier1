@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/authorization"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_marginTop="40dp"
+                  android:layout_marginLeft="60dp"
+                  android:layout_marginRight="60dp"
+                  android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_login"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/etLogin"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_password">
+        </TextView>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPassword"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="@string/go"
+                android:id="@+id/btnGo"
+                android:layout_marginRight="25dp"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/register_with"
+                android:id="@+id/btnRegister"
+                android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
